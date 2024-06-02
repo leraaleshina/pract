@@ -21,6 +21,9 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+        public static int IdRole { get; set; }
+        public static int IdEmployee { get; set; }
+
         private void Employee_OnClick(object sender, RoutedEventArgs e)
         {
             WindowEmployee wEmployee = new WindowEmployee();
@@ -31,5 +34,7 @@ namespace WpfApp1
             WindowRole wRole = new WindowRole();
             wRole.Show();
         }
-        }
     }
+
+
+}
